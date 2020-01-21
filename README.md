@@ -1,4 +1,4 @@
-# ArMenu
+# Ar Menu
 
 Ar Menu for mobile and A-Frame marks
 
