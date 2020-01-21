@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+    <script src="./ArMenuComponents/Products.js"></script>
+    <script src="./ArMenuComponents/GameManager.js"></script>
+  </head>
+  <body>
+    <a-scene  embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
+      
+      <!--       
+        <a-marker type='pattern' url='./ArMenuFiles/marker1.patt'>
+          <a-entity 
+          scale = '1, 1, 1'
+          obj-model="obj: url(/ArMenuFiles/AppleStrudel.obj);" 
+          >
+        </a-marker> -->
+        <a-text value="Hello World" color="#BBB"
+        position="2 3.536 -9.592" scale="1.5 1.5 1.5" prize></a-text>
+        <a-text value="Hello World" color="#BBB"
+        position="2 3 -9.592" scale="1.5 1.5 1.5" Calories></a-text>
+
+        <a-entity position="0 1.6 0" rotation="0 0 0" camera>
+          
+        <!-- <a-marker preset='hiro' id="markfood1">
+            <a-entity 
+            scale = '4, 4, 4'
+            obj-model="obj: url(/ArMenuFiles/AppleStrudel.obj);" 
+            >
+        </a-marker> -->
+
+        <a-marker preset='hiro' id="markfood1">
+            <a-entity 
+            scale = '0.5, 0.5, 0.5'
+            position = '0, 0, 0'
+            obj-model="obj: url(/ArMenuFiles/cookie.obj);
+                       mtl: url(/ArMenuFiles/cookie.mtl)" 
+            >
+        </a-marker>
+
+        <a-marker preset='kanji' id="markfood2">
+            <a-entity 
+            scale = '0.30, 0.30, 0.30'
+            obj-model="obj: url(/ArMenuFiles/hotdog.obj);
+                       mtl: url(/ArMenuFiles/hotdog.mtl)" 
+            >
+        </a-marker>
+        
+<!--- MARKER-->
+
+<!-- <a-marker type='pattern' url='./ArMenuFiles/marker1.patt'>
+  <a-box position="0 0 0" radius="1" color="#EF2D5E"></a-box>
+</a-marker>
+
+<a-marker type='pattern' url='./ArMenuFiles/alcohol.patt'>
+  <a-box position="0 0 0" radius="1" color="#EF2D5E"></a-box>
+</a-marker>
+
+<a-marker type='pattern' url='./ArMenuFiles/appleStrudel.patt'>
+  <a-box position="0 0 0" radius="1" color="#EF2D5E"></a-box>
+</a-marker>
+
+<a-marker type='pattern' url='./ArMenuFiles/coffee.patt'>
+  <a-box position="0 0 0" radius="1" color="#EF2D5E"></a-box>
+</a-marker>
+
+<a-marker type='pattern' url='./ArMenuFiles/cake.patt'>
+  <a-box position="0 0 0" radius="1" color="#EF2D5E"></a-box>
+</a-marker>
+
+<a-marker type='pattern' url='./ArMenuFiles/fries.patt'>
+  <a-box position="0 0 0" radius="1" color="#EF2D5E"></a-box>
+</a-marker>
+
+<a-marker type='pattern' url='./ArMenuFiles/hamburger.patt'>
+  <a-box position="0 0 0" radius="1" color="#EF2D5E"></a-box>
+</a-marker>
+
+<a-marker type='pattern' url='./ArMenuFiles/icecream.patt'>
+  <a-box position="0 0 0" radius="1" color="#EF2D5E"></a-box>
+</a-marker>
+
+<a-marker type='pattern' url='./ArMenuFiles/milkShake.patt'>
+  <a-box position="0 0 0" radius="1" color="#EF2D5E"></a-box>
+</a-marker>
+
+<a-marker type='pattern' url='./ArMenuFiles/soda.patt'>
+  <a-box position="0 0 0" radius="1" color="#EF2D5E"></a-box>
+</a-marker> -->
+<!--- MARKER-->
+    
+      </a-entity>
+
+
+    </a-scene>
+  </body>
+</html>
+
