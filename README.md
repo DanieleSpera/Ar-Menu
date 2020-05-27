@@ -10,7 +10,7 @@ To try
 3) Looking at the markers through your phone it shows you the 3D Objects and sum their calories
 
 Here a prototype:
-![Prototype](Images/ARMenu.png)
+![Prototype](Images/ArMenu.png)
 
 1000 Thank to the HackatonTeam!
-![Hackaton Team](Images/ARTeam.png)
+![Hackaton Team](Images/ARTeam.jpg)
